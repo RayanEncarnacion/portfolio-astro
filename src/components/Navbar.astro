@@ -1,18 +1,24 @@
+---
+// import CV from '../../public/RayanEncarnaciónResume.pdf'
+---
+
 <header
     class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-3 dark:bg-gray-800"
 >
     <nav
-        class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        class="w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between lg:px-12"
         aria-label="Global"
     >
         <div class="flex items-center justify-between">
-            <a class="flex-none text-xl font-semibold dark:text-white" href="##"
-                >Brand</a
+            <a
+                class="flex-none text-xl font-semibold dark:text-white"
+                href=""
+                title="Home page">Brand</a
             >
             <div class="sm:hidden">
                 <button
                     type="button"
-                    class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                    class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-200 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-200 dark:hover:text-white dark:focus:ring-offset-gray-800"
                     data-hs-collapse="#navbar-collapse-with-animation"
                     aria-controls="navbar-collapse-with-animation"
                     aria-label="Toggle navigation"
@@ -48,25 +54,37 @@
             class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
         >
             <div
-                class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5"
+                class="flex flex-col items-start gap-6 md:gap-10 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5"
             >
                 <a
-                    class="font-medium text-blue-500"
+                    aria-current="page"
+                    class="font-medium text-blue-300"
                     href="#about"
-                    aria-current="page">About</a
+                    title="About section">About</a
                 >
                 <a
-                    class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
-                    href="#experience">Experience</a
+                    class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-500"
+                    href="#experience"
+                    title="Experience section">Experience</a
                 >
                 <a
-                    class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
-                    href="#work">Work</a
+                    class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-500"
+                    href="#work"
+                    title="Work section">Work</a
                 >
                 <a
-                    class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
-                    href="#contact">Contact</a
+                    class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-500"
+                    download="Rayan Encarnación Resume"
+                    href="/RayanEncarnaciónResume.pdf"
+                    title="Download my resume">Download CV</a
                 >
+                <a
+                    href="#contact"
+                    class="py-1 px-4 w-auto inline-block rounded-md border border-transparent font-semibold bg-blue-500 text-gray-100 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
+                    title="Contact section"
+                >
+                    Contact
+                </a>
             </div>
         </div>
     </nav>
